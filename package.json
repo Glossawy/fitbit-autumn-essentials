@@ -1,0 +1,29 @@
+{
+  "name": "autumnal-essentials",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^8.0.2"
+  },
+  "fitbit": {
+    "appUUID": "32604e2f-adde-4271-b9b3-1fd49a70c692",
+    "appType": "clockface",
+    "appDisplayName": "Autumnal Essentials",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "target": "es2015",
+        "types": ["companion"],
+        "lib": ["es2015"],
+        "noEmit": true,
+        "checkJs": true
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.js",
+        "../node_modules/fitbit-sdk-types/types/companion"
+    ]
+}
